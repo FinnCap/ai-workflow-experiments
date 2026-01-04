@@ -415,7 +415,7 @@ wheels = [
 ]
 
 [[package]]
-name = "mcp-python-backend"
+name = "backend"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
