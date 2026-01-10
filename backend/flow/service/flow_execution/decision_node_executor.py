@@ -50,7 +50,7 @@ class DecisionNodeExecutor(BaseNodeExecutor):
             text_input=user_message,
             system_prompt=system_prompt,
             temperature=0.0,
-            model_name=AvailableModels.ANTHROPIC_CLAUDE_HAIKU_3_5,
+            model_name=AvailableModels.ANTHROPIC_CLAUDE_HAIKU_4_5,
         )
 
         context.pdf_data = None
